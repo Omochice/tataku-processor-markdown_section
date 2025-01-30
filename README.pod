@@ -1,0 +1,8 @@
+---
+name: tataku-processor-markdown_section
+description: A processor module for tataku.vim that re-interpret the chunk as markdown's sections.
+---
+
+=pod
+
+=cut
