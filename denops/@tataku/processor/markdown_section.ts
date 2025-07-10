@@ -1,8 +1,8 @@
 import type { ProcessorFactory } from "jsr:@omochice/tataku-vim@1.2.1";
-import { unified } from "npm:unified@11.0.5";
+import { unified } from "npm:unified@11.0.9";
 import remarkParse from "npm:remark-parse@11.0.0";
-import { extract } from "jsr:@std/front-matter@1.0.5/any";
-import { test } from "jsr:@std/front-matter@1.0.5/test";
+import { extract } from "jsr:@std/front-matter@1.0.9/any";
+import { test } from "jsr:@std/front-matter@1.0.9/test";
 import { toTransformStream } from "jsr:@std/streams@1.0.10/to-transform-stream";
 
 const processor: ProcessorFactory = () => {
