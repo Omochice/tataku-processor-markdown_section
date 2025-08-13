@@ -3,7 +3,7 @@ import { unified } from "npm:unified@11.0.5";
 import remarkParse from "npm:remark-parse@11.0.0";
 import { extract } from "jsr:@std/front-matter@1.0.9/any";
 import { test } from "jsr:@std/front-matter@1.0.9/test";
-import { toTransformStream } from "jsr:@std/streams@1.0.10/to-transform-stream";
+import { toTransformStream } from "jsr:@std/streams@1.0.11/to-transform-stream";
 
 const processor: ProcessorFactory = () => {
   return toTransformStream(async function* (src: ReadableStream<string[]>) {
