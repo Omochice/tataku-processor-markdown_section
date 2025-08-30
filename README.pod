@@ -1,13 +1,13 @@
 ---
 name: tataku-processor-markdown_section
-description: A processor module for tataku.vim that re-interpret the chunk as markdown's sections.
+description: The processor module for tataku.vim that re-interprets the chunk as markdown sections.
 ---
 
 =pod
 
 =head1 tataku-processor-markdown_section X<tataku-processor-markdown_section>
 
-The processor module for tataku.vim that re-interpret the chunk as markdown's sections.
+The processor module for tataku.vim that re-interprets the chunk as markdown sections.
 
 =head2 Contents X<tataku-processor-markdown_section-contents>
 
@@ -23,7 +23,7 @@ The processor module for tataku.vim that re-interpret the chunk as markdown's se
 
 =head2 Dependencies X<tataku-processor-markdown_section-dependencies>
 
-This plugin needs below:
+This plugin requires the following:
 
 =over 0
 
@@ -35,7 +35,7 @@ This plugin needs below:
 
 =head2 Options X<tataku-processor-markdown_section-options>
 
-This module has any options.
+This module has no options.
 
 =head2 Samples X<tataku-processor-markdown_section-samples>
 
