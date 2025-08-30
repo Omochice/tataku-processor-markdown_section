@@ -1,8 +1,54 @@
 ---
 name: tataku-processor-markdown_section
-description: A processor module for tataku.vim that re-interpret the chunk as markdown's sections.
+description: The processor module for tataku.vim that re-interprets the chunk as markdown sections.
 ---
 
 =pod
+
+=head1 tataku-processor-markdown_section X<tataku-processor-markdown_section>
+
+The processor module for tataku.vim that re-interprets the chunk as markdown sections.
+
+=head2 Contents X<tataku-processor-markdown_section-contents>
+
+=over 0
+
+=item * L<Dependencies|tataku-processor-markdown_section-dependencies>
+
+=item * L<Options|tataku-processor-markdown_section-options>
+
+=item * L<Samples|tataku-processor-markdown_section-samples>
+
+=back
+
+=head2 Dependencies X<tataku-processor-markdown_section-dependencies>
+
+This plugin requires the following:
+
+=over 0
+
+=item * L<denops.vim|https://github.com/vim-denops/denops.vim>
+
+=item * L<tataku.vim|https://github.com/Omochice/tataku.vim>
+
+=back
+
+=head2 Options X<tataku-processor-markdown_section-options>
+
+This module has no options.
+
+=head2 Samples X<tataku-processor-markdown_section-samples>
+
+=begin vim
+
+let g:tataku_recipes = #{
+  \   sample: #{
+  \     processor: #{
+  \       name: 'markdown_section',
+  \     },
+  \   },
+  \ }
+
+=end vim
 
 =cut
